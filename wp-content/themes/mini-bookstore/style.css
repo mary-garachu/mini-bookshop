@@ -1,0 +1,80 @@
+/*
+Theme Name: Mini Bookstore
+Template: twentytwentyfour
+Author: Sonie
+Description: Child theme for the Mini Bookstore project
+Version: 1.0
+*/
+
+
+/* =single book page styles */
+.single-book-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.book-cover img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.book-author {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.book-isbn {
+  font-size: 1rem;
+  color: #666;
+}
+
+.book-summary {
+  max-width: 600px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.book-buy-section {
+  margin-top: 20px;
+}
+
+.mb-buy-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mb-buy-container .add_to_cart_button,
+.mb-buy-container .added_to_cart {
+  background: #0073aa;
+  color: #fff !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin: 0 8px;
+}
+
+.mb-buy-container .add_to_cart_button:hover,
+.mb-buy-container .added_to_cart:hover {
+  background: #005b8c;
+}
